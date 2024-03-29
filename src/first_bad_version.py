@@ -8,4 +8,4 @@ class Solution:
                 right = middle - 1
             else:
                 left = middle + 1
-        return left 
+        return left

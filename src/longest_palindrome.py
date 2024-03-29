@@ -1,5 +1,6 @@
 import collections
 
+
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         palindrome_length = 0
@@ -12,4 +13,3 @@ class Solution:
             else:
                 palindrome_length += frequency
         return palindrome_length + has_odd_frequency_char
-
